@@ -127,8 +127,7 @@ def get_prunemaskvelo(mask, npix=1):
 #             mask[:, x, y] = mask_
 #     return(mask)
 
-def get_expmask(cube, rms, hthresh=5, lthresh=2,
-                beamarea=2, radfrac=1, npix=1):
+def get_expmask(cube, rms, hthresh=5, lthresh=2, beamarea=2, radfrac=1, npix=1):
 
     """Get full expanded mask
        Wrapper for getting threshold mask

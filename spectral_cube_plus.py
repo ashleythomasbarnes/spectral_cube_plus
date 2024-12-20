@@ -19,8 +19,11 @@ class SpectralCubePlus(SpectralCube):
     
     @classmethod
     def read(cls, filename, *args, **kwargs):
-        # Add the K (Tmb) unit to the enabled units
+
+        # Add the IRAM units to the enabled units
         u.add_enabled_units(u.def_unit(['K (Tmb)'], represents=u.K))
+        u.add_enabled_units(u.def_unit(['K (Ta*)'], represents=u.K))
+        
         # Use the parent class's read method to create an instance
         obj = super().read(filename, *args, **kwargs)
         # Create an instance of SpectralCubePlus using the SpectralCube object

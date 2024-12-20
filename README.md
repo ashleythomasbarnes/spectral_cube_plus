@@ -10,6 +10,7 @@ SpectralCubePlus is an extension of the popular [SpectralCube](https://spectral-
 - **Seamless Integration with SpectralCube:** Inherits all functionality from the SpectralCube library while adding new features.
 
 ## Installation
+## STILL TO DO.... 
 
 To install SpectralCubePlus, clone the repository and install the package using pip:
 
@@ -85,4 +86,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or suggestions, please open an issue on the GitHub repository or contact `your.email@example.com`.
+For questions or suggestions, please open an issue on the GitHub repository or contact Ashley Barnes
