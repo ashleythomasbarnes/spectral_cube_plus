@@ -3,9 +3,9 @@ from spectral_cube import Projection
 import astropy.units as u
 import numpy as np
 
-from spectralcubeplus_rms import get_rms_auto as _get_rms_auto, get_rms as _get_rms
-from spectralcubeplus_masks import get_expmask as _get_expmask
-from spectralcubeplus_moments import get_mom0err, get_nchanbool
+from .spectralcubeplus_rms import get_rms_auto as _get_rms_auto, get_rms as _get_rms
+from .spectralcubeplus_masks import get_expmask as _get_expmask
+from .spectralcubeplus_moments import get_mom0err, get_nchanbool
 
 class SpectralCubePlus(SpectralCube):
     def __init__(self, *args, **kwargs):
