@@ -15,7 +15,7 @@ SpectralCubePlus is an extension of the popular [SpectralCube](https://spectral-
 To install SpectralCubePlus, clone the repository and install the package using pip:
 
 ```bash
-$ git clone https://github.com/yourusername/spectral_cube_plus.git
+$ git clone https://github.com/ashleythomasbarnes/spectral_cube_plus.git
 $ cd spectral_cube_plus
 $ pip install .
 ```
