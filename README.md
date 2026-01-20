@@ -10,7 +10,6 @@ SpectralCubePlus is an extension of the popular [SpectralCube](https://spectral-
 - **Seamless Integration with SpectralCube:** Inherits all functionality from the SpectralCube library while adding new features.
 
 ## Installation
-## STILL TO DO.... 
 
 To install SpectralCubePlus, clone the repository and install the package using pip:
 

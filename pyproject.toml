@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectral-cube-plus"
+version = "0.1.0"
+description = "Extensions to spectral-cube for RMS, moments, and masking."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+  { name = "Ashley Barnes" }
+]
+dependencies = [
+  "astropy",
+  "numpy",
+  "scipy",
+  "spectral-cube",
+]
+
+[project.urls]
+Homepage = "https://github.com/ashleythomasbarnes/spectral_cube_plus"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["spectral_cube_plus*"]
