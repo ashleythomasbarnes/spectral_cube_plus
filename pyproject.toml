@@ -17,8 +17,12 @@ dependencies = [
   "numpy",
   "scipy",
   "spectral-cube",
+  "radio-beam",
   "matplotlib"
 ]
+
+[project.optional-dependencies]
+test = ["pytest"]
 
 [project.urls]
 Homepage = "https://github.com/ashleythomasbarnes/spectral_cube_plus"
