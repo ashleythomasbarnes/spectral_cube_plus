@@ -17,6 +17,7 @@ dependencies = [
   "numpy",
   "scipy",
   "spectral-cube",
+  "matplotlib"
 ]
 
 [project.urls]
